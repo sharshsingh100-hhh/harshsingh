@@ -12,6 +12,9 @@ public static void main(String[] args)
 SpringApplication.run(HarshDemoApplication.class, args);
 }
 }
+
+
+
 REST Controller
 Create file:
 HarshController.java
@@ -27,6 +30,8 @@ public String welcomeHarsh()
 return "Hey Harsh, This is your first Springboot Application running";
 }
 }
+
+
 *******Exp-1 class and object
 class Rectangle {
 int length;
@@ -44,6 +49,8 @@ System.out.println("Width: " + rect.width);
 System.out.println("Area: " + rect.area);
 }
 }
+
+
 constructor
 class Student {
 int rollNo;
@@ -71,6 +78,9 @@ s1.display();
 s2.display();
 }
 }
+
+
+
 ***Exp-8 postman
 Controller Class
 package com.example.demo;
